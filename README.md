@@ -1,3 +1,4 @@
+Based on the work of Kaiyang Zhou
 # F-SCP
 # An Automatic Prompt Generation Method for Specific Classes based on Visual Language Pre-training Models
 
@@ -6,7 +7,7 @@
 This is an pytorch implementation of 《F-SCP: An Automatic Prompt Generation Method for Specific Classes based on Visual Language Pre-training Models》. 
 In this paper, we propose a novel automatic prompt generation method called F-SCP (Filter-based Specific Class Prompt), which distinguishes itself from the CoOp-UC (Unified Context)
 model and the CoOp-CSC model. Our approach focuses on prompt generation for low-accuracy classes and similar classes. We add the Filter and
-SCP modules to the prompt generation architecture. The Filter module selects the poorly classified classes, and then reproduce the prompts through
+SCP modules to the prompt generation architecture. The Filter module selects the poorly classified classes, and then reproduces the prompts through
 the SCP (Specific Class Prompt) module to replace the prompts of specific
 classes. </br>
 
