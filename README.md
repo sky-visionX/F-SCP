@@ -11,8 +11,8 @@ SCP modules to the prompt generation architecture. The Filter module selects the
 the SCP (Specific Class Prompt) module to replace the prompts of specific
 classes. </br>
 
-![Illustrating the architecture of the proposed F-SCP](/figures/F2.png)
-![The flow of the Filter module and the SCP module.](/figures/F3.png)
+![Illustrating the architecture of the proposed F-SCP](/F2.png)
+![The flow of the Filter module and the SCP module.](/F3.png)
 ## Main Results
 ### Results on COCO val2017
 | Arch               | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |    AR |
